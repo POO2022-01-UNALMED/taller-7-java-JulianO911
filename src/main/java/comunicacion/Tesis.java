@@ -59,7 +59,7 @@ public class Tesis extends Escrito{
     
 	public String toString() {
 		return this.getOrigen()+"\n" + this.getTitulo()+"\n"+this.getAutor()+"\n"+this.getPaginas()+"\n"+
-				idea+"\n"+argumentos+"\n"+conclusion+"\n"+referencias;
+				idea+"\n"+argumentos.length+"\n"+conclusion+"\n"+referencias;
 	}
 	
 	public int palabrasTotales(int palabrasPagina) {
