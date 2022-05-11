@@ -34,7 +34,7 @@ public class Alfabeto extends Pictograma {
 		for(String letra:letras) {
 			retorno += letra+", ";
 		}
-		return retorno;
+		return retorno.substring(0, retorno.length()-2);
 	}
 	
 	public int cantidadLetras() {
