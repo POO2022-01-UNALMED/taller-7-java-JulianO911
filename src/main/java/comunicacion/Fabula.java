@@ -10,11 +10,11 @@ public class Fabula extends Escrito{
         this.interpretacion = interpretacion;
     }
     
-    public String getensenanza() {
+    public String getEnsenanza() {
         return ensenanza;
     }
 
-    public void setensenanza(String ensenanza) {
+    public void setEnsenanza(String ensenanza) {
         this.ensenanza = ensenanza;
     }
 
