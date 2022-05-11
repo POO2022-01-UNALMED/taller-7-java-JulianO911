@@ -38,7 +38,7 @@ public class Libro extends Escrito {
         this.edicion = edicion;
     }
 
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 
@@ -51,7 +51,7 @@ public class Libro extends Escrito {
 				co_autor+"\n"+editorial+"\n"+edicion;
 	}
 	
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return this.getPaginas()*palabrasPagina*2;
 	}
     

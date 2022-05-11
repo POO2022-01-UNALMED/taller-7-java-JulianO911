@@ -28,7 +28,7 @@ public class Periodico extends Escrito{
         this.primicia = primicia;
     }
 
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 
@@ -41,7 +41,7 @@ public class Periodico extends Escrito{
 				fecha+"\n"+primicia;
 	}
 	
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return this.getPaginas()*palabrasPagina*10;
 	}
     

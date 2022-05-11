@@ -49,7 +49,7 @@ public class Tesis extends Escrito{
         this.referencias = referencias;
     }
 
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 
@@ -62,7 +62,7 @@ public class Tesis extends Escrito{
 				idea+"\n"+argumentos+"\n"+conclusion+"\n"+referencias;
 	}
 	
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return this.getPaginas()*palabrasPagina*5;
 	}
     

@@ -18,7 +18,7 @@ public class Fabula extends Escrito{
         this.ensenanza = ensenanza;
     }
 
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 
@@ -32,7 +32,7 @@ public class Fabula extends Escrito{
 				ensenanza;
 	}
 	
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return this.getPaginas()*palabrasPagina*1;
 	}
 }
